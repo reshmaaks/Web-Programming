@@ -1,0 +1,70 @@
+<html>
+<head>
+	<script type="text/javascript">
+		function ValidateLogin();
+		{
+		var x = document.getElementById("uname").value;
+		var y = document.getElementById("pwd").value;
+	}
+	</script>
+<title>Login Page</title>
+	<center style="color:solid"><h2>Sign in</h2></center>
+<style>
+.container
+{
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
+</style>
+</head>
+<body>
+    <form action="Success.html">
+	<center>
+	     <div class = "container">
+		<label for="uname"><b>Username<b></label>
+                <input type="text" placeholder="Enter Username" name ="uname" id="uname"><br><br>
+		<label style="color:red" name="errname" id="errname"></label><br>
+
+		<script>
+		   function ValidateUserName()
+		   {
+		     var x = document.getElementById("uname").value;
+		     if(x=="")
+			{
+				document.getElementById("errname").innerHTML="Username is required";
+			}
+		   }
+		</script>
+
+
+
+
+		<label for="pwd">Password</label>
+		<input type="password" placeholder="Enter Password" name ="pwd" id="pwd"><br><br>
+		<label style="color:red" name="errpwd" id="errpwd"></label><br>
+
+		<script>
+		   function ValidatePassword()
+		   {
+		     var x = document.getElementById("pwd").value;
+		     if(x=="")
+			{
+				document.getElementById("errpwd").innerHTML="Password is required";
+			}
+		   }
+		</script>
+		<button type="submit" onclick="ValidateLogin()">Login</button>
+
+		<br>
+		<br>
+		<a href="Registration.html">Don't have an account? Sign up now</a>
+		<br>
+	     </div>
+         </center>
+     </form>
+</body>
+</html>
+
