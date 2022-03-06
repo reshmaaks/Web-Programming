@@ -1,0 +1,28 @@
+body
+{
+    padding: 30px;
+    background: url(denta1.JPEG) no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    font-size: larger;
+}
+.navarea
+{
+    float: right;
+    list-style: none;
+}
+.navarea li
+{
+    display: inline-block;
+}
+.navarea li a
+{
+    color: #fff;
+    padding: 5px 20px;
+    font-size: 14px;
+}
+.navarea li a:hover
+{
+    background: #fff;
+    color: #333;
+}

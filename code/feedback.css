@@ -1,0 +1,46 @@
+body
+{
+    padding: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    background:rgb(12,12,12);
+    background-size: cover;
+}
+h2
+{
+    text-align: center;
+    transform: translate(0px,-20px);
+}
+.complaintbox input
+{
+    margin-bottom: 35px;
+    padding: 10px;
+    width: 300px;
+}
+.complaintbox input[type="submit"]
+{
+    cursor: pointer;
+    width: 200px;
+    background: none;
+    border: 2px solid rgb(88, 236, 75);
+    color: rgb(88, 236, 75);
+    transform: translate(50px,0px);
+}
+.complaintbox
+{
+    padding: 30px;
+    width: 300px;
+    position: absolute;
+    top: 10%;
+    transform: translate(120%);
+    
+}
+.complaintbox textarea
+{
+    width: 260px;
+    padding: 30px;
+}
+.light-mode 
+{
+    color: black;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Feedback</title>
+        <link rel="stylesheet" href="feedback.css">
+    </head>
+    <body>
+        <div class="feedback">
+            <h2>Post your feedback</h2>
+            <form method="POST"  action="compreg.php" enctype="multipart/form-data">
+            <div>
+                <label for="feedback">Feedback...</label>
+                <textarea rows="5" name="feedback" id="feedback"
+                placeholder="Describe your feedback in less than 200 words." required=""></textarea>
+            </div>
+            <div>
+              <input type="submit" value="Post feedback" onclick="alert('Successful');" />
+            </div>
+        </div>
+            <style>
+                body {
+                      padding: 500px;
+                      background-color:
+                }
+            .light-mode {
+                background-color:whitesmoke;
+                color: black;
+              }
+              </style>
+              <script>
+              function myFunction() {
+                 var element = document.body;
+                 element.classList.toggle("light-mode");
+              }
+              </script>
+              
+              </body>
+              </html>
+    </form>
+    </body>
+</html>
+    
